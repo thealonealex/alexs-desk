@@ -1,0 +1,13 @@
+.outside-box {
+    height: 500px;
+    width: 600px;
+    background-color: #c770a0;
+}
+
+.inside-box {
+    height: 100px;
+    width: 300px;
+}
+body {
+    background-color: #b3d1c2;
+}

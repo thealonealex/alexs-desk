@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="354px" height="290px" viewBox="0 0 354 290" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>iMac</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="354" height="240" rx="9"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wall" transform="translate(-472, -231)">
+            <g id="iMac" transform="translate(472, 231)">
+                <g id="screen">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="screen-(Background/Mask)" fill="#BAD9C7" xlink:href="#path-1"></use>
+                    <rect id="bezels" fill="#D9D9D9" mask="url(#mask-2)" x="0" y="0" width="354" height="208"></rect>
+                    <rect id="display" fill="#000000" mask="url(#mask-2)" x="9" y="12" width="336" height="185"></rect>
+                    <circle id="camera" fill="#000000" mask="url(#mask-2)" cx="177" cy="6" r="3"></circle>
+                </g>
+                <polygon id="stand" fill="#BAD9C7" fill-rule="nonzero" points="209.999969 230 215 290 139 290 143.999971 230"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

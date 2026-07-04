@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1172px" height="893px" viewBox="0 0 1172 893" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Wall</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1172" height="893"></rect>
+        <rect id="path-3" x="0" y="0" width="354" height="240" rx="9"></rect>
+        <linearGradient x1="48.2609357%" y1="51.1803878%" x2="85.5528628%" y2="101.137516%" id="linearGradient-5">
+            <stop stop-color="#BAD9C7" offset="0%"></stop>
+            <stop stop-color="#F4DB47" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="3.06161713e-15%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#018DFF" stop-opacity="0.620000005" offset="0%"></stop>
+            <stop stop-color="#FA00AF" offset="30.7692319%"></stop>
+            <stop stop-color="#C82813" offset="75%"></stop>
+            <stop stop-color="#003CFF" offset="100%"></stop>
+        </linearGradient>
+        <pattern id="pattern-7" width="100%" height="100%" patternUnits="objectBoundingBox">
+            <use xlink:href="#image-8"></use>
+        </pattern>
+        <image id="image-8" width="27" height="31" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAfCAYAAAAWRbZDAAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAG6ADAAQAAAABAAAAHwAAAAADj/I5AAABUElEQVRIDe2VyW6EMBBEzb5cOCP+/zfj8DouhAgmopGiOYDUlBfcj2qbmSKE8LWG6yqKIjRNY1HXdThGVVVhH6WLkhYB40KJsix/hWA2l9a5RAApCUkuVVv9x87sjQ+OBJErqRuGG64rV4JI60z9yBQzczYcY7RyCUZCXKZDUqz9uEHWw2NzmYSXIK3RXpBUJzEB4qFve5lzpnxZxdHe1R7I56C+9MpZFqIJgeQAAG2pxpPTyzIqZ1aBKaEAbdsGQlDtIfrIGYt5awG6rgsEYMH1jNS9Z4AEGIYh9H1vYEDaJ5QKSN0wHAEZx9ECsEpIcgJHBEAre3ZT/pgAMk2TxdEViQUijYBuZ8uyhHmezR0HQk7kQgqMtul6c//FWIYbN/dv4w3G9ugL20rxpPERZfw5q34bp+sZfI++v6hp5UcckMcuzhK8zs6qcnvsX8v4DZ4REjNzomh3AAAAAElFTkSuQmCC"></image>
+    </defs>
+    <g id="Wall" stroke="none" fill="none">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Wall-(Background/Mask)" fill="#346F73" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <g id="Group-1" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+            <g transform="translate(90, 59)">
+                <g id="table" stroke-width="1" fill="none" transform="translate(187, 462)">
+                    <rect id="table-body" fill="#C3C3C3" x="0" y="0" width="744" height="42"></rect>
+                    <rect id="table-leg" fill="#C3C3C3" x="702" y="42" width="42" height="251"></rect>
+                </g>
+                <rect id="bookshelf" fill="#C3C3C3" x="0" y="0" width="187" height="755"></rect>
+            </g>
+        </g>
+        <g id="iMac" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+            <g transform="translate(472, 231)">
+                <g id="screen" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="screen-(Background/Mask)" fill="#BAD9C7" xlink:href="#path-3"></use>
+                    <rect id="bezels" fill="#D9D9D9" mask="url(#mask-4)" x="0" y="0" width="354" height="208"></rect>
+                    <rect id="display" fill="#000000" mask="url(#mask-4)" x="9" y="12" width="336" height="185"></rect>
+                    <circle id="camera" fill="#000000" mask="url(#mask-4)" cx="177" cy="6" r="3"></circle>
+                </g>
+                <polygon id="stand" fill="#BAD9C7" fill-rule="nonzero" points="209.999969 230 215 290 139 290 143.999971 230"></polygon>
+            </g>
+        </g>
+        <g id="holder" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+            <g transform="translate(348, 427)">
+                <g id="Pencil" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(10.9106, 0)">
+                    <polygon id="pencil-body" fill="#F4DB47" points="0 7.5 1 0 5 6.5 19.5 70 12.5 72.5"></polygon>
+                    <polygon id="pencil-tip" fill="#000000" points="0.672607422 2.45541644 2.28698766 2.09136105 0.999996305 0"></polygon>
+                </g>
+                <g id="Brush" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(8, 1)">
+                    <path d="M33,4 C23.7182479,36.2602564 23.7182479,36.2602564 0,66 C7.21824689,35.2521267 7.21824689,35.2521267 33,4 Z" id="brush-body" fill="#DF9B64"></path>
+                    <path d="M30.0000054,4.5 C26.3599504,4.5 30.8627253,13.5 33.8627253,9 C36.2627254,5.4000001 34.8333335,2.5 35,0 C31.5000005,7 31.5000341,4.5 30.0000054,4.5 Z" id="brush-tip" fill="#9E5A42"></path>
+                </g>
+                <path d="M50.2174443,25.6761485 L53.9106255,94 L0,94 L3.61028053,25.6833641 C3.77866025,22.4971475 6.41125724,20 9.60191985,20 L44.2261907,20 C47.4140618,20 50.0453781,22.4929243 50.2174443,25.6761485 Z" id="pencil-holder" fill="#81969B" fill-rule="nonzero"></path>
+            </g>
+        </g>
+        <g id="photos" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+            <g transform="translate(874.9561, 305.71)" id="photo">
+                <g transform="translate(0, 0)">
+                    <rect id="frame" fill="#D9D9D9" transform="translate(23.4901, 24.9463) rotate(33.1155) translate(-23.4901, -24.9463)" x="8.49013579" y="4.94634755" width="30" height="40"></rect>
+                    <rect id="picture" fill="url(#linearGradient-5)" transform="translate(25.1291, 22.4336) rotate(33.1155) translate(-25.1291, -22.4336)" x="12.1290954" y="7.43363489" width="26" height="30"></rect>
+                </g>
+                <g transform="translate(43.0439, 39.29)">
+                    <rect id="frame" fill="#D9D9D9" transform="translate(21.059, 23.989) rotate(-20.5202) translate(-21.059, -23.989)" x="6.05897871" y="3.98903552" width="30" height="40"></rect>
+                    <rect id="picture" fill="url(#linearGradient-6)" transform="translate(20.0074, 21.1794) rotate(-20.5202) translate(-20.0074, -21.1794)" x="7.00735194" y="6.17938928" width="26" height="30"></rect>
+                </g>
+                <g transform="translate(7.044, 61.29)">
+                    <rect id="frame" fill="#D9D9D9" transform="translate(18.145, 22.2346) rotate(9.6656) translate(-18.145, -22.2346)" x="3.14502447" y="2.23455671" width="30" height="40"></rect>
+                    <rect id="picture" fill="url(#pattern-7)" transform="translate(18.6487, 19.2771) rotate(9.6656) translate(-18.6487, -19.2771)" x="5.64870868" y="4.27714378" width="26" height="30"></rect>
+                </g>
+            </g>
+        </g>
+        <g id="book" stroke-width="1" fill-rule="evenodd" mask="url(#mask-2)">
+            <g transform="translate(864, 501)">
+                <rect id="cover" fill="#3F2B21" x="0" y="0" width="115" height="20" rx="4"></rect>
+                <rect id="pages" fill="#D9D9D9" x="4" y="4" width="111" height="12"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
