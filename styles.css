@@ -27,3 +27,13 @@ body {
         transform: rotate(-1deg);
     }
 }
+
+.link_group {
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 0px;
+    outline: 5px solid #bad9c7;
+}
