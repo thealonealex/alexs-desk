@@ -1,0 +1,77 @@
+body{
+    background-color: #C3C3C3;
+    overflow: hidden;
+}
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+}
+.table{
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 500ms;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+    margin-inline: auto;
+    display: flex;
+    aspect-ratio: 4 / 3;
+    max-height: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.stick{
+    position: absolute;
+    margin: auto;
+    width: 90%;
+    bottom: -60%;
+    left: 43%;
+}
+.plotarmour {
+    transition: 0.4s;
+    position: absolute;
+    height: 37%;
+    top: 7%;
+    right: 65%;
+    rotate: 5deg;
+}
+.beamymeaby {
+    transition: 0.4s;
+    position: absolute;
+    height: 37%;
+    top: 55%;
+    right: 60%;
+    rotate: 9deg;
+}
+.loopygolf {
+    transition: 0.4s;
+    position: absolute;
+    height: 37%;
+    top: 4%;
+    right: 25%;
+    rotate: -16deg;
+}
+.plotarmour:hover {
+    transition: 0.5s;
+    z-index: 5;
+    transform: scale(110%) rotateY(360deg);
+}
+.beamymeaby:hover {
+    transition: 0.5s;
+    z-index: 5;
+    transform: scale(110%) rotateY(360deg);
+}
+.loopygolf:hover {
+    transition: 0.5s;
+    z-index: 5;
+    transform: scale(110%) rotateY(360deg);
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
