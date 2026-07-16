@@ -11,5 +11,7 @@ Check it out:
 - A hub with my games
 - A link to my blog
 - Social & github redirects
+- Embeds in social media sites, like Discord
 ## Credits
-This [stardance guide](https://stardance.hackclub.com/missions/personal-page/guide) for a quick intro to making a website :)
+- This [stardance guide](https://stardance.hackclub.com/missions/personal-page/guide) for a quick intro to making a website :)
+- A lot of code from [StackOverflow](https://stackoverflow.com/)
