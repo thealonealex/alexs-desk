@@ -1,6 +1,6 @@
 body{
     background-color: #C3C3C3;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 img {
     -webkit-user-drag: none;
@@ -8,7 +8,7 @@ img {
 }
 div{
     /*for debugging*/
-    outline: 2px solid grey;
+    /*outline: 2px solid grey;*/
 }
 .table{
     opacity: 1;
@@ -25,11 +25,17 @@ div{
     align-items: center;
     text-align: center;
 }
+.back{
+    position: absolute;
+    top:1%;
+    left:1%;
+    height: 8%;
+}
 .stickdiv{
     position: absolute;
     margin: auto;
     width: 80%;
-    bottom: -60%;
+    bottom: -50%;
     left: 50%;
 }
 .stick{

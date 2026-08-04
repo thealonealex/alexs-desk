@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="117px" height="117px" viewBox="0 0 117 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>back</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wall" transform="translate(-327, -728)">
+            <g id="back" transform="translate(327, 728)">
+                <circle id="Oval" stroke="#C3C3C3" stroke-width="8" fill-opacity="0.9" fill="#DFDFDF" cx="58.5" cy="58.5" r="54.5"></circle>
+                <polyline id="Path" stroke="#979797" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" points="67.5 41 49 58.5 67.5 76"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>
