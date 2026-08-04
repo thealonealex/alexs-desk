@@ -1,10 +1,14 @@
 body{
     background-color: #C3C3C3;
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 img {
     -webkit-user-drag: none;
     user-select: none;
+}
+div{
+    /*for debugging*/
+    outline: 2px solid grey;
 }
 .table{
     opacity: 1;
@@ -21,14 +25,20 @@ img {
     align-items: center;
     text-align: center;
 }
-.stick{
+.stickdiv{
     position: absolute;
     margin: auto;
-    width: 90%;
+    width: 80%;
     bottom: -60%;
-    left: 43%;
+    left: 50%;
 }
-.plotarmour {
+.stick{
+    transition: 0.2s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.armourdiv {
     transition: 0.4s;
     position: absolute;
     height: 37%;
@@ -36,7 +46,13 @@ img {
     right: 65%;
     rotate: 5deg;
 }
-.beamymeaby {
+.plotarmour{
+    transition: 0.4s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.beamydiv {
     transition: 0.4s;
     position: absolute;
     height: 37%;
@@ -44,7 +60,13 @@ img {
     right: 60%;
     rotate: 9deg;
 }
-.loopygolf {
+.beamymeaby{
+    transition: 0.4s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.loopydiv {
     transition: 0.4s;
     position: absolute;
     height: 37%;
@@ -52,17 +74,23 @@ img {
     right: 25%;
     rotate: -16deg;
 }
-.plotarmour:hover {
+.loopygolf{
+    transition: 0.4s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.armourdiv:hover .plotarmour{
     transition: 0.5s;
     z-index: 5;
     transform: scale(110%) rotateY(360deg);
 }
-.beamymeaby:hover {
+.beamydiv:hover .beamymeaby{
     transition: 0.5s;
     z-index: 5;
     transform: scale(110%) rotateY(360deg);
 }
-.loopygolf:hover {
+.loopydiv:hover .loopygolf{
     transition: 0.5s;
     z-index: 5;
     transform: scale(110%) rotateY(360deg);

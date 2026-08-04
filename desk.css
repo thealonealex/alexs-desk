@@ -5,6 +5,10 @@ img {
     -webkit-user-drag: none;
     user-select: none;
 }
+div {
+    /*for debugging*/
+    /*outline: 2px solid grey;*/
+}
 .desktop {
     opacity: 1;
     animation-name: fadeInOpacity;
@@ -20,70 +24,106 @@ img {
     align-items: center;
     text-align: center;
 }
-.desk {
+.deskdiv {
     position: absolute;
     margin: auto;
     height: 90%;
     width: 90%;
     z-index: -1;
 }
-.mac {
+.desk{
+    transition: 0.2s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.macdiv {
     transition: 0.2s;
     position: absolute;
-    height: 37%;
-    top: 23.1%;
-    right: 25%;
+    height: 36%;
+    bottom: 39.9%;
+    left: 44%;
 }
-.book {
+.mac{
+    transition: 0.2s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.bookdiv {
     transition: 0.2s;
     position: absolute;
     height: 2.5%;
     top: 57.5%;
-    right: 12%;
+    right: 10%;
 }
-.photos {
+.book{
+    transition: 0.2s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.photosdiv {
     transition: 0.3s;
     position: absolute;
     height: 14%;
     top: 32%;
-    right: 12%;
+    right: 10%;
 }
-.games {
+.photos{
+    transition: 0.2s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.gamesdiv {
     transition: 0.2s;
     position: absolute;
     height: 12%;
     top: 48.1%;
     left: 30%;
 }
-.bsky {
+.games{
+    transition: 0.2s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.bskydiv {
     transition: 0.3s;
     position: absolute;
     height: 12%;
     top: 25%;
     left: 28%;
 }
-.mac:hover {
+.bsky{
+    transition: 0.2s;
+    position: relative;
+    height:100%;
+    width:100%;
+}
+.macdiv:hover .mac{
     transition: 0.3s;
     z-index: 5;
     transform: translateY(-10%) scale(1.05);
     content: url("vectors/iMac-github.svg");
 }
-.games:hover {
+.gamesdiv:hover .games{
     transition: 0.3s;
     z-index: 5;
     transform: translateY(-10%) scale(1.05);
 }
-.book:hover {
+.bookdiv:hover .book{
     transition: 0.3s;
     z-index: 5;
     transform: translateY(-50%) scale(1.05) rotate(-5deg);
 }
-.photos:hover {
+.photosdiv:hover .photos{
     transition: 0.3s;
     z-index: 5;
     transform: rotate(-10deg);
 }
-.bsky:hover {
+.bskydiv:hover .bsky{
     transition: 0.3s;
     z-index: 5;
     transform: rotate(10deg);
