@@ -1,20 +1,43 @@
 body {
     background-color: #336f73;
-}
-img {
-    -webkit-user-drag: none;
-    user-select: none;
-}
-div {
-    /*for debugging*/
-    /*outline: 2px solid grey;*/
-}
-.desktop {
     opacity: 1;
     animation-name: fadeInOpacity;
     animation-iteration-count: 500ms;
     animation-timing-function: ease-in;
     animation-duration: 1s;
+}
+img {
+    -webkit-user-drag: none;
+    user-select: none;
+}
+@media (max-width: 575.98px) {
+  .desktopSite {
+    display: none;
+  }
+  .mobileSite {
+    display: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  .desktopSite {
+    display: initial;
+  }
+  .mobileSite {
+    display: none;
+  }
+}
+.appgrid{
+    display: grid;
+    gap: 10vw;
+    padding: 10px;
+    grid-template-columns: auto auto;
+}
+.iconImage{
+    position: relative;
+    width: 100%;
+}
+.desktop {
     margin-inline: auto;
     display: flex;
     aspect-ratio: 4 / 3;

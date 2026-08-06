@@ -1,6 +1,10 @@
 body{
     background-color: #C3C3C3;
-    overflow: hidden;
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 500ms;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
 }
 img {
     -webkit-user-drag: none;
@@ -10,12 +14,39 @@ div{
     /*for debugging*/
     /*outline: 2px solid grey;*/
 }
+@media (max-width: 575.98px) {
+  .desktopSite {
+    display: none;
+  }
+  .mobileSite {
+    display: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  .desktopSite {
+    display: initial;
+  }
+  .mobileSite {
+    display: none;
+  }
+}
+.mContainer{
+    display: grid;
+    gap: 5vw;
+    padding: 10px;
+    grid-template-columns: auto auto;
+}
+.game{
+    position: relative;
+    width: 100%;
+}
+.mback{
+    padding-bottom: 10px;
+    width: 15%;
+}
 .table{
-    opacity: 1;
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 500ms;
-    animation-timing-function: ease-in;
-    animation-duration: 1s;
+    overflow: hidden;
     margin-inline: auto;
     display: flex;
     aspect-ratio: 4 / 3;

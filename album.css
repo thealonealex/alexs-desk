@@ -1,15 +1,46 @@
 body {
     background-color: #336f73;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
 }
 img {
     -webkit-user-drag: none;
     user-select: none;
 }
+@media (max-width: 575.98px) {
+  .desktopSite {
+    display: none;
+  }
+  .mobileSite {
+    display: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  .desktopSite {
+    display: initial;
+  }
+  .mobileSite {
+    display: none;
+  }
+}
+.mContainer {
+    margin-inline: auto;
+    display: flex;
+    aspect-ratio: 9 / 16;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.albumMobile{
+    position: absolute;
+    width: 100%;
+    top: 5%;
+}
 .wall {
-    animation-name: fadeInOpacity;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1s;
     margin-inline: auto;
     display: flex;
     aspect-ratio: 4 / 3;
