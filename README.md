@@ -4,7 +4,7 @@ My personal website built with pure HTML and CSS. All assets created by myself!
 ![vector file of my computer](<iMac.png>)
 
 Check it out:
-***https://thealonealex.github.io/alexs-desk***
+***https://thealonealex.dev***
 ## Features
 - A desk you can interact with
 - A bunch of awesome photos
