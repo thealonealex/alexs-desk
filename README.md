@@ -35,6 +35,7 @@ Homepage|Photos page|Games page
 - This [stardance guide](https://stardance.hackclub.com/missions/personal-page/guide) for a quick intro to making a website :)
 - A lot of code from [StackOverflow](https://stackoverflow.com/)
 
+## License
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
 This work is licensed under a
