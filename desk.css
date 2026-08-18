@@ -5,6 +5,7 @@ body {
     animation-iteration-count: 500ms;
     animation-timing-function: ease-in;
     animation-duration: 1s;
+    margin: 0;
 }
 img {
     -webkit-user-drag: none;
@@ -22,6 +23,8 @@ img {
 @media (min-width: 576px) {
   .desktopSite {
     display: initial;
+    height: 100vh;
+    display: block;
   }
   .mobileSite {
     display: none;

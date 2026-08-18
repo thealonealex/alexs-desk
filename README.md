@@ -17,11 +17,19 @@ While developing the website it became clear that the design I had in mind would
 ### Desktop
 - The main page features a recreation of my real desk. You can hover over objects and interact with them, and they play little animations when you do!
 - All the pages are built to always fit all the content in the page and use a 4/3 ratio no matter what ratio your viewport has
+
+Homepage|Photos page|Games page
+:----------:|:--------:|:--------:
+![desktop screenshot of desk page](screenshots/desk.png)|![desktop screenshot of photos page](screenshots/photos.png)|![desktop screenshot of games page](screenshots/games.png)
 ### Mobile
 - The main page is styled to ressemble a smartphone, with a all the interactable objects from the desktop version turned into app icons
 - All the pages are adapted to fit better on the aspect ratio most phones use. Depending on your web browser's viewport some content might be scrollable
+
+Homepage|Photos page|Games page
+:----------:|:--------:|:--------:
+![mobile screenshot of desk page](screenshots/mobile_homescreen.png)|![mobile screenshot of photos page](screenshots/mobile_photos.png)|![mobile screenshot of games page](screenshots/mobile_games.png)
 ## Tests
-- The desktop website has been tested on Helium (Chromium) and Safari (Webkit) on various aspect ratios
+- The desktop website has been tested on Helium (Chromium) and Safari (Webkit) and Zen/Firefox (Gecko) on various aspect ratios
 - The mobile website has been tested on Chrome (Chromium) and Firefox (Gecko)
 ## Credits
 - This [stardance guide](https://stardance.hackclub.com/missions/personal-page/guide) for a quick intro to making a website :)
