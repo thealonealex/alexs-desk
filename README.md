@@ -29,7 +29,7 @@ Homepage|Photos page|Games page
 :----------:|:--------:|:--------:
 ![mobile screenshot of desk page](screenshots/mobile_homescreen.png)|![mobile screenshot of photos page](screenshots/mobile_photos.png)|![mobile screenshot of games page](screenshots/mobile_games.png)
 ## Tests
-- The desktop website has been tested on Helium (Chromium) and Safari (Webkit) and Zen/Firefox (Gecko) on various aspect ratios
+- The desktop website has been tested on Dia/Helium (Chromium) and Zen/Firefox (Gecko) on various aspect ratios
 - The mobile website has been tested on Chrome (Chromium) and Firefox (Gecko)
 ## Credits
 - This [stardance guide](https://stardance.hackclub.com/missions/personal-page/guide) for a quick intro to making a website :)
