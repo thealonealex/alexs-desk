@@ -1,3 +1,7 @@
+div {
+    /*for debugging*/
+    /*outline: 2px solid grey;*/
+}
 body {
     background-color: #336f73;
     opacity: 1;
@@ -23,7 +27,7 @@ img {
 @media (min-width: 576px) {
   .desktopSite {
     display: initial;
-    height: 100vh;
+    height: 100%;
     display: block;
   }
   .mobileSite {
@@ -74,7 +78,6 @@ img {
     transition: 0.2s;
     position: relative;
     height:100%;
-    width:100%;
 }
 .bookdiv {
     transition: 0.2s;
@@ -87,7 +90,7 @@ img {
     transition: 0.2s;
     position: relative;
     height:100%;
-    width:100%;
+
 }
 .photosdiv {
     transition: 0.3s;
@@ -100,7 +103,6 @@ img {
     transition: 0.2s;
     position: relative;
     height:100%;
-    width:100%;
 }
 .gamesdiv {
     transition: 0.2s;
@@ -113,7 +115,6 @@ img {
     transition: 0.2s;
     position: relative;
     height:100%;
-    width:100%;
 }
 .bskydiv {
     transition: 0.3s;
@@ -126,7 +127,6 @@ img {
     transition: 0.2s;
     position: relative;
     height:100%;
-    width:100%;
 }
 .macdiv:hover .mac{
     transition: 0.3s;

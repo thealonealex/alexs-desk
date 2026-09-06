@@ -1,3 +1,7 @@
+div {
+    /*for debugging*/
+    /*outline: 2px solid grey;*/
+}
 body{
     background-color: #C3C3C3;
     opacity: 1;
@@ -9,10 +13,6 @@ body{
 img {
     -webkit-user-drag: none;
     user-select: none;
-}
-div{
-    /*for debugging*/
-    /*outline: 2px solid grey;*/
 }
 @media (max-width: 575.98px) {
   .desktopSite {
@@ -39,7 +39,7 @@ div{
 }
 .game{
     position: relative;
-    width: 100%;
+    height: 100%;
 }
 .mback{
     padding-bottom: 10px;
@@ -87,7 +87,6 @@ div{
     transition: 0.4s;
     position: relative;
     height:100%;
-    width:100%;
 }
 .beamydiv {
     transition: 0.4s;
@@ -101,7 +100,6 @@ div{
     transition: 0.4s;
     position: relative;
     height:100%;
-    width:100%;
 }
 .loopydiv {
     transition: 0.4s;
@@ -115,7 +113,6 @@ div{
     transition: 0.4s;
     position: relative;
     height:100%;
-    width:100%;
 }
 .armourdiv:hover .plotarmour{
     transition: 0.5s;
